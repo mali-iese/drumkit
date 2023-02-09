@@ -1,7 +1,4 @@
 var x=document.querySelectorAll(".drum");
-function play() {
-    var audio = new Audio('./sounds/crash.mp3');
-    audio.play();}
 for(i=0;i<7;i++){
     x[i].addEventListener("click", function(){
         var buttonInnerHtmml= this.innerHTML;
